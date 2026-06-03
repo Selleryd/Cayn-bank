@@ -52,8 +52,7 @@
  <body data-template-id="__page-root" class="w-full min-h-screen"><!-- NAV -->
   <nav class="nav-float fixed top-0 left-0 right-0 z-50 border-b border-teal-700/5">
    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"><a href="#home" class="flex items-center gap-2.5">
-     <div class="w-9 h-9 rounded-full bg-teal-600 flex items-center justify-center">
-      <span class="text-white font-bold text-sm">C</span>
+     <div class="w-9 h-9 rounded-full bg-teal-600 flex items-center justify-center"><span class="text-white font-bold text-sm">C</span>
      </div><span data-template-id="nav-logo" class="canva-text"></span> </a>
     <div class="hidden md:flex items-center gap-8"><a href="#home" class="text-sm font-medium text-teal-900/60 hover:text-teal-700 transition">Personal</a> <a href="#home" class="text-sm font-medium text-teal-900/60 hover:text-teal-700 transition">Business</a> <a href="#about" class="text-sm font-medium text-teal-900/60 hover:text-teal-700 transition">About</a> <a href="#pricing" class="text-sm font-medium text-teal-900/60 hover:text-teal-700 transition">Pricing</a>
     </div>
@@ -76,10 +75,10 @@
       </div>
       <div class="mt-12 flex items-center gap-6 text-sm text-teal-800/50"><span class="flex items-center gap-1.5"><i data-lucide="shield-check" class="w-4 h-4 text-teal-600"></i> FDIC Insured</span> <span class="flex items-center gap-1.5"><i data-lucide="zap" class="w-4 h-4 text-teal-600"></i> Instant Transfers</span>
       </div>
-     </div><!-- SVG Hero Illustration -->
+     </div><!-- Hero Illustration -->
      <div class="fade-up fade-d2 relative">
       <div class="absolute -inset-8 bg-gradient-to-br from-teal-400/10 to-coral-400/5 rounded-[2rem] blur-2xl -z-10 float"></div>
-      <div class="w-full aspect-[4/3] rounded-[2rem] bg-gradient-to-br from-teal-50 to-teal-100 border border-teal-200/50 shadow-2xl shadow-teal-900/10 p-8 flex flex-col justify-between overflow-hidden relative"><!-- Mini dashboard illustration -->
+      <div class="w-full aspect-[4/3] rounded-[2rem] bg-gradient-to-br from-teal-50 to-teal-100 border border-teal-200/50 shadow-2xl shadow-teal-900/10 p-8 flex flex-col justify-between overflow-hidden relative">
        <div class="flex items-center gap-3 mb-4">
         <div class="w-3 h-3 rounded-full bg-coral-400"></div>
         <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
@@ -96,7 +95,7 @@
         <div class="chart-bar flex-1 bg-teal-400 rounded-t-lg" style="height:50%"></div>
        </div>
        <div class="mt-4 flex justify-between text-xs text-teal-600/60 font-medium"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
-       </div><!-- Floating card element -->
+       </div>
        <div class="absolute top-6 right-6 bg-white rounded-xl shadow-lg p-3 border border-teal-100">
         <p class="text-[10px] text-teal-600 font-medium">Balance</p>
         <p class="text-lg font-bold text-teal-900" style="font-family:var(--font-display)">$24,580</p>
@@ -182,7 +181,7 @@
       <p data-template-id="accounts-subtitle" class="canva-text mt-4"></p>
      </div>
      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-      <div class="rounded-3xl overflow-hidden bg-white border border-teal-100/60 hover:shadow-2xl hover:shadow-teal-100/40 transition-all duration-300"><!-- SVG illustration for business -->
+      <div class="rounded-3xl overflow-hidden bg-white border border-teal-100/60 hover:shadow-2xl hover:shadow-teal-100/40 transition-all duration-300">
        <div class="w-full h-52 bg-gradient-to-br from-teal-600 to-teal-800 flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
          <svg width="100%" height="100%">
@@ -191,7 +190,8 @@
           </pattern><rect width="100%" height="100%" fill="url(#grid-biz)" />
          </svg>
         </div>
-        <div class="text-center z-10"><i data-lucide="building-2" class="w-16 h-16 text-white/80 mx-auto"></i>
+        <div class="text-center z-10">
+         <i data-lucide="building-2" class="w-16 h-16 text-white/80 mx-auto"></i>
          <p class="text-white/60 text-sm mt-2 font-medium">Business Banking</p>
         </div>
        </div>
@@ -200,7 +200,7 @@
         <p data-template-id="business-card-desc" class="canva-text mt-2 text-sm leading-relaxed"></p><a href="#open-account" data-template-id="business-card-cta" class="canva-button inline-block mt-5 px-6 py-3 rounded-full text-sm font-semibold transition hover:scale-[1.02] transform"></a>
        </div>
       </div>
-      <div class="rounded-3xl overflow-hidden bg-white border border-teal-100/60 hover:shadow-2xl hover:shadow-teal-100/40 transition-all duration-300"><!-- SVG illustration for personal -->
+      <div class="rounded-3xl overflow-hidden bg-white border border-teal-100/60 hover:shadow-2xl hover:shadow-teal-100/40 transition-all duration-300">
        <div class="w-full h-52 bg-gradient-to-br from-coral-400/80 to-coral-500 flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
          <svg width="100%" height="100%">
@@ -209,7 +209,8 @@
           </pattern><rect width="100%" height="100%" fill="url(#dots-pers)" />
          </svg>
         </div>
-        <div class="text-center z-10"><i data-lucide="user" class="w-16 h-16 text-white/80 mx-auto"></i>
+        <div class="text-center z-10">
+         <i data-lucide="user" class="w-16 h-16 text-white/80 mx-auto"></i>
          <p class="text-white/60 text-sm mt-2 font-medium">Personal Banking</p>
         </div>
        </div>
@@ -234,7 +235,7 @@
       </ul>
      </div>
      <div class="relative">
-      <div class="absolute -inset-8 bg-gradient-to-tr from-teal-400/10 to-coral-400/5 rounded-[2rem] blur-2xl -z-10"></div><!-- Coded dashboard mockup -->
+      <div class="absolute -inset-8 bg-gradient-to-tr from-teal-400/10 to-coral-400/5 rounded-[2rem] blur-2xl -z-10"></div>
       <div class="w-full rounded-3xl shadow-2xl shadow-teal-900/10 border border-teal-100/40 bg-white p-6 overflow-hidden">
        <div class="flex items-center justify-between mb-6">
         <div>
@@ -249,14 +250,14 @@
           <i data-lucide="settings" class="w-4 h-4 text-teal-600"></i>
          </div>
         </div>
-       </div><!-- Mini line chart -->
+       </div>
        <svg viewbox="0 0 300 80" class="w-full h-20 mb-6"><defs>
          <lineargradient id="chart-grad" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stop-color="#0d9488" stop-opacity="0.3" />
           <stop offset="100%" stop-color="#0d9488" stop-opacity="0" />
          </lineargradient>
         </defs> <path d="M0,60 Q30,55 60,45 T120,35 T180,25 T240,30 T300,15" fill="none" stroke="#0d9488" stroke-width="2.5" stroke-linecap="round" /> <path d="M0,60 Q30,55 60,45 T120,35 T180,25 T240,30 T300,15 L300,80 L0,80 Z" fill="url(#chart-grad)" />
-       </svg><!-- Recent transactions -->
+       </svg>
        <div class="space-y-3">
         <div class="flex items-center justify-between py-2 border-b border-teal-50">
          <div class="flex items-center gap-3">
@@ -339,7 +340,7 @@
   <div id="page-about" class="page">
    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <h1 data-template-id="about-title" class="canva-text text-center"></h1>
-    <p data-template-id="about-desc" class="canva-text mt-4 text-center max-w-2xl mx-auto"></p><!-- SVG team illustration -->
+    <p data-template-id="about-desc" class="canva-text mt-4 text-center max-w-2xl mx-auto"></p>
     <div class="w-full max-w-4xl mx-auto mt-14 rounded-3xl shadow-xl border border-teal-100/40 bg-gradient-to-br from-teal-50 to-cream-100 p-12 flex items-center justify-center">
      <div class="flex gap-6 items-end">
       <div class="flex flex-col items-center">
@@ -361,7 +362,7 @@
        <div class="w-1 h-10 bg-coral-200 mt-2 rounded"></div>
       </div>
       <div class="flex flex-col items-center">
-       <div class="w-18 h-18 rounded-full bg-gradient-to-br from-teal-500 to-teal-700 flex items-center justify-center p-4">
+       <div class="w-16 h-16 rounded-full bg-gradient-to-br from-teal-500 to-teal-700 flex items-center justify-center">
         <i data-lucide="rocket" class="w-8 h-8 text-white"></i>
        </div>
        <div class="w-1 h-14 bg-teal-200 mt-2 rounded"></div>
@@ -455,7 +456,8 @@
         <p class="text-xs text-teal-800/40">Remembered account</p>
        </div>
       </div></button>
-     <div class="mt-6 pt-6 border-t border-teal-100"><a href="#home" class="block w-full text-center py-3 rounded-full text-teal-700 hover:bg-teal-50 transition font-medium text-sm">Use a different account</a>
+     <div class="mt-6 pt-6 border-t border-teal-100">
+      <a href="#home" class="block w-full text-center py-3 rounded-full text-teal-700 hover:bg-teal-50 transition font-medium text-sm">Use a different account</a>
      </div>
     </div>
    </section>
@@ -516,7 +518,8 @@
        <div>
         <label for="dob" class="block text-sm font-medium text-teal-800 mb-1">Date of Birth</label><input id="dob" type="date" required class="w-full px-4 py-3 rounded-xl border border-teal-200 bg-white text-teal-900 outline-none transition">
        </div>
-       <div class="flex justify-between pt-4"><button type="button" onclick="prevStep()" class="px-5 py-3 rounded-full text-teal-700 hover:bg-teal-50 transition font-medium">Back</button> <button type="submit" class="px-6 py-3 rounded-full bg-teal-600 text-white font-semibold hover:bg-teal-700 transition">Continue</button>
+       <div class="flex justify-between pt-4">
+        <button type="button" onclick="prevStep()" class="px-5 py-3 rounded-full text-teal-700 hover:bg-teal-50 transition font-medium">Back</button><button type="submit" class="px-6 py-3 rounded-full bg-teal-600 text-white font-semibold hover:bg-teal-700 transition">Continue</button>
        </div>
       </form>
      </div><!-- Step 3 -->
@@ -637,77 +640,80 @@
    </div>
    <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-teal-100 flex flex-col sm:flex-row justify-between items-center gap-4">
     <p class="text-xs text-teal-800/30">© 2024 Cayn Bank. All rights reserved. Member FDIC.</p>
-    <div class="flex gap-4"><a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="twitter" class="w-5 h-5"></i></a> <a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="linkedin" class="w-5 h-5"></i></a> <a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+    <div class="flex gap-4">
+     <a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="twitter" class="w-5 h-5"></i></a><a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="linkedin" class="w-5 h-5"></i></a><a href="#" class="text-teal-800/30 hover:text-teal-600 transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
     </div>
    </div>
   </footer>
   <script src="/_sdk/editing_sdk.js"></script>
   <script>
-    function navigateTo(hash) {
-      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-      const page = document.getElementById('page-' + (hash || 'home'));
-      if (page) page.classList.add('active');
-      window.scrollTo(0, 0);
-      document.getElementById('mobile-menu').classList.add('hidden');
+  // Navigation
+  function navigateTo(hash) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const page = document.getElementById('page-' + (hash || 'home'));
+    if (page) page.classList.add('active');
+    window.scrollTo(0, 0);
+    document.getElementById('mobile-menu').classList.add('hidden');
+  }
+  function getHash() { return (location.hash || '#home').replace('#', ''); }
+  window.addEventListener('hashchange', () => navigateTo(getHash()));
+  navigateTo(getHash());
+
+  document.getElementById('mobile-toggle').addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+
+  // Onboarding
+  let currentStep = 1;
+  let accountType = '';
+
+  function selectAccountType(type) { accountType = type; goToStep(2); }
+
+  function goToStep(n) {
+    currentStep = n;
+    document.querySelectorAll('.step').forEach(s => s.classList.add('hidden'));
+    document.getElementById('step-' + n).classList.remove('hidden');
+    if (n === 3) {
+      document.getElementById('step-3-business').classList.toggle('hidden', accountType !== 'business');
+      document.getElementById('step-3-personal').classList.toggle('hidden', accountType !== 'personal');
     }
-    function getHash() { return (location.hash || '#home').replace('#', ''); }
-    window.addEventListener('hashchange', () => navigateTo(getHash()));
-    navigateTo(getHash());
-
-    document.getElementById('mobile-toggle').addEventListener('click', () => {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
-    });
-
-    let currentStep = 1;
-    let accountType = '';
-
-    function selectAccountType(type) { accountType = type; goToStep(2); }
-
-    function goToStep(n) {
-      currentStep = n;
-      document.querySelectorAll('.step').forEach(s => s.classList.add('hidden'));
-      document.getElementById('step-' + n).classList.remove('hidden');
-      if (n === 3) {
-        document.getElementById('step-3-business').classList.toggle('hidden', accountType !== 'business');
-        document.getElementById('step-3-personal').classList.toggle('hidden', accountType !== 'personal');
-      }
-      if (n === 5) buildReview();
-      if (n === 6) {
-        document.getElementById('progress-bar').classList.add('hidden');
-        document.getElementById('ref-number').textContent = Math.floor(100000 + Math.random() * 900000);
-        lucide.createIcons();
-      } else {
-        document.getElementById('progress-bar').classList.remove('hidden');
-      }
-      const pct = n <= 5 ? (n * 20) : 100;
-      document.getElementById('progress-fill').style.width = pct + '%';
-      document.getElementById('step-label').textContent = 'Step ' + Math.min(n, 5) + ' of 5';
-      document.getElementById('step-percent').textContent = pct + '%';
+    if (n === 5) buildReview();
+    if (n === 6) {
+      document.getElementById('progress-bar').classList.add('hidden');
+      document.getElementById('ref-number').textContent = Math.floor(100000 + Math.random() * 900000);
+      lucide.createIcons();
+    } else {
+      document.getElementById('progress-bar').classList.remove('hidden');
     }
+    const pct = n <= 5 ? (n * 20) : 100;
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('step-label').textContent = 'Step ' + Math.min(n, 5) + ' of 5';
+    document.getElementById('step-percent').textContent = pct + '%';
+  }
 
-    function prevStep() { if (currentStep > 1) goToStep(currentStep - 1); }
+  function prevStep() { if (currentStep > 1) goToStep(currentStep - 1); }
 
-    document.getElementById('form-step-2').addEventListener('submit', e => { e.preventDefault(); goToStep(3); });
-    document.getElementById('form-step-3-biz').addEventListener('submit', e => { e.preventDefault(); goToStep(4); });
-    document.getElementById('form-step-3-pers').addEventListener('submit', e => { e.preventDefault(); goToStep(4); });
-    document.getElementById('form-step-4').addEventListener('submit', e => { e.preventDefault(); goToStep(5); });
-    document.getElementById('form-step-5').addEventListener('submit', e => { e.preventDefault(); goToStep(6); });
+  document.getElementById('form-step-2').addEventListener('submit', e => { e.preventDefault(); goToStep(3); });
+  document.getElementById('form-step-3-biz').addEventListener('submit', e => { e.preventDefault(); goToStep(4); });
+  document.getElementById('form-step-3-pers').addEventListener('submit', e => { e.preventDefault(); goToStep(4); });
+  document.getElementById('form-step-4').addEventListener('submit', e => { e.preventDefault(); goToStep(5); });
+  document.getElementById('form-step-5').addEventListener('submit', e => { e.preventDefault(); goToStep(6); });
 
-    function buildReview() {
-      const s = document.getElementById('review-summary');
-      let html = '<div class="grid gap-2">';
-      html += `<div class="flex justify-between"><span class="text-teal-800/50">Account Type</span><span class="font-medium text-teal-900">${accountType === 'business' ? 'Business' : 'Personal'}</span></div>`;
-      html += `<div class="flex justify-between"><span class="text-teal-800/50">Name</span><span class="font-medium text-teal-900">${document.getElementById('first-name').value} ${document.getElementById('last-name').value}</span></div>`;
-      html += `<div class="flex justify-between"><span class="text-teal-800/50">Email</span><span class="font-medium text-teal-900">${document.getElementById('email').value}</span></div>`;
-      if (accountType === 'business') {
-        html += `<div class="flex justify-between"><span class="text-teal-800/50">Business</span><span class="font-medium text-teal-900">${document.getElementById('biz-name').value}</span></div>`;
-      }
-      html += `<div class="flex justify-between"><span class="text-teal-800/50">City</span><span class="font-medium text-teal-900">${document.getElementById('addr-city').value}, ${document.getElementById('addr-state').value}</span></div>`;
-      html += '</div>';
-      s.innerHTML = html;
+  function buildReview() {
+    const s = document.getElementById('review-summary');
+    let html = '<div class="grid gap-2">';
+    html += '<div class="flex justify-between"><span class="text-teal-800/50">Account Type</span><span class="font-medium text-teal-900">' + (accountType === 'business' ? 'Business' : 'Personal') + '</span></div>';
+    html += '<div class="flex justify-between"><span class="text-teal-800/50">Name</span><span class="font-medium text-teal-900">' + document.getElementById('first-name').value + ' ' + document.getElementById('last-name').value + '</span></div>';
+    html += '<div class="flex justify-between"><span class="text-teal-800/50">Email</span><span class="font-medium text-teal-900">' + document.getElementById('email').value + '</span></div>';
+    if (accountType === 'business') {
+      html += '<div class="flex justify-between"><span class="text-teal-800/50">Business</span><span class="font-medium text-teal-900">' + document.getElementById('biz-name').value + '</span></div>';
     }
+    html += '<div class="flex justify-between"><span class="text-teal-800/50">City</span><span class="font-medium text-teal-900">' + document.getElementById('addr-city').value + ', ' + document.getElementById('addr-state').value + '</span></div>';
+    html += '</div>';
+    s.innerHTML = html;
+  }
 
-    lucide.createIcons();
-  </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a061c8473b696e24',t:'MTc4MDUyMjA1MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+  lucide.createIcons();
+</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a061f1a05e346183',t:'MTc4MDUyMzc0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
